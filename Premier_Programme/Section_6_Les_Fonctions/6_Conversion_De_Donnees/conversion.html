@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversion de Données</title>
+</head>
+<body>
+    <h1>Conversion de Données</h1>
+
+    <p>Le But de l'exercice au départ est de créer un programme qui demande l'âge de l'utilisateur et <br></p>
+    <p>ensuite affiche vous avez "age" ans. Pour cela, on écrit le code suivant : <br></p>
+    <p>function demanderAge() {<br>
+        let age = prompt("Entrer votre âge : ");<br>
+        alert("Vous avez " + age + " ans !");<br>
+    }<br>
+    
+    demanderAge();<br></p>
+
+    <p>Maintenant on crée une fonction qui va prévoir l'âge dans 1, 2 , 10 ans.<br></p>
+    <p>On pourrait écrire le même code mais modifier la partie alert comme suit, <br></p>
+    <p>alert ("Vous avez " + (age + 1) + " ans") <br></p>
+    <p>Cela ne fonctionnera pas, on aura un message qui affichera qu'on a 301 ans si on rentre 30.<br></p>
+    <p>Cela est dû au fait que Js prend la valeur que l'on rentre dans le prompt comme une chaîne de caractères.<br></p>
+    <p>Pour obtenir notre résultat, on va utiliser des fonctions déjà existantes dans Js comme : <br></p>
+    <p><strong>- Number() :</strong> Converti une chaîne de caractères en nombre (avec ou sans virgule). CELUI QUI EST RECOMMANDÉ.<br></p>
+    <p><strong>- parseInt() :</strong> Converti une chaîne de caractères en entier. ATTENTION 35,5 sera converti en 35.<br></p>
+    <p><strong>- parseFloat() :</strong> Converti une chaîne de caractères en nombre à virgules.<br></p>
+    <p><strong>ATTENTION : Dans les parenthèses , on écrit le nom de la variable.<br></strong></p>
+
+    <p>Pour transformer un nombre en chaîne de caractères, on utilisa la fonction toString.<br></p>
+    <p>Voir le commentaire dans le code.</p>
+    <script src="conversionDeDonnees.js"></script>
+</body>
+</html>
