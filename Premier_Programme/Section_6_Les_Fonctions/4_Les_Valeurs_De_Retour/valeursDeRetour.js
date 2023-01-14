@@ -10,9 +10,9 @@ function addition(nombreA, nombreB) {
 
 function division(nombreA, nombreB) {
 
-    let addition = nombreA / nombreB;
+    let division = nombreA / nombreB;
     // console.log(addition); //affiche
-    return addition; //Stock le résultat en mémoire, ici la fonction addition, ce qu'elle fait.
+    return division; //Stock le résultat en mémoire, ici la fonction addition, ce qu'elle fait.
 }
 
 let resultatAddition = addition(nombreUn, nombreDeux);

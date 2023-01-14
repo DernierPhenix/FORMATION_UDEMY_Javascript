@@ -11,7 +11,7 @@ console.log(crie);
 
 // Forme d'écriture recommandée
 
-let crier = "Toujours plus haut ! "; //Vriable Globale
+let crier = "Toujours plus haut ! "; //Variable Globale
 
 function crieDuGuerrier() {
 
