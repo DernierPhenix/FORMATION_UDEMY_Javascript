@@ -6,8 +6,8 @@
 // demanderAge();
 
 function prevoirAge() {
-    let age = prompt("Entrer votre âge : "); //"30" + " = 301"
-    age = Number(age); //converti age en nombre (entier ou à virgule)
+    let age     = prompt("Entrer votre âge : "); //"30" + " = 301"
+    age         = Number(age); //converti age en nombre (entier ou à virgule)
 
     //age = parseInt(age); Converti age en entier
     //age = parseFloat(age); Converti age en nombre décimal

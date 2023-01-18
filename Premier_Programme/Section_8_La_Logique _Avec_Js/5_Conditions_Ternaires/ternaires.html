@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Conditions Ternaires</title>
+</head>
+<body>
+    <h1>Les Conditions Ternaires</h1>
+        <p>Une condition ternaire permet de mettre une condition mais une seule ligne.<br></p>
+        <p>Elle s'écrit de la façon suivante: <br></p>
+        <p><strong>[condition] ? [True] : [False]<br></strong></p>
+        <p>Exemple : <br></p>
+        <p>let x = 5;<br>
+
+            x > 3 ? console.log("X est supérieur à 3.") : console.log("X est inférieur à 3.");<br></p>
+
+        <p>Autre Exemple : <br></p>    
+        <p>let gareDeDepart    = "Valenciennes";<br>
+            <strong>let gareDarrivee    = prompt("Quelle est votre destination ?") || "Gare du Nord";</strong><br>
+            let chauffeur       = "Jean-Pierre";<br>
+            
+         
+            if ((gareDeDepart != "" || gareDarrivee != "") && chauffeur != "") {<br>
+                alert("Le train va démarrer à destination de " + gareDarrivee + ".");<br>
+            } else {<br>
+                alert("Le train ne peut pas démarrer sans chauffeur")<br>
+            }<br></p>
+
+        <p>Dans cet exemple on a définit la variable gareDarrivee dans un Prompt.<br></p>
+        <p> Si l'utilisateur, indique une destination alors le message avec sa destination apparaîtra dans une boîte de dialogue.<br></p>
+        <p> Si l'utilisateur, n'indique pas de destination alors le message apparaîtra dans une boîte de dialogue avec la valeur par défaut<br></p>
+        <p> qui se trouve après le double pipe (Gare du Nord).<br></p>
+    <script src="conditionsTernaires.js"></script>
+</body>
+</html>

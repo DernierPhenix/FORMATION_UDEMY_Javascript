@@ -32,3 +32,6 @@ Je note ici les cours sur javascript que j'apprends sur le site UDEMY.
     * Les conditions If, Else if, Else
     * Les conditions SWITCH
     * Plusieurs conditions OR & AND
+    * Les conditions contraires NOT
+    * Les conditions ternaires 
+    * Les boucles WHILE

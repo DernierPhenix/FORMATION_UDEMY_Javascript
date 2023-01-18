@@ -1,9 +1,9 @@
 /* var -> Variable Globale, let -> Variable Locale */
 
-let prenom = "Jean-Pierre"; //Type de Variable = Chaine de caractère (string)
-prenom = "Coralie";
+let prenom  = "Jean-Pierre"; //Type de Variable = Chaine de caractère (string)
+prenom      = "Coralie";
 
-let age = 35; //Type de Variable = nombre
+let age     = 35; //Type de Variable = nombre
 
 let majorite = true; //Type de Variable = Booléen
 

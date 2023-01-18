@@ -1,6 +1,6 @@
-let gareDeDepart = "Valenciennes";
-let gareDarrivee = "";
-let chauffeur = "";
+let gareDeDepart    = "Valenciennes";
+let gareDarrivee    = "";
+let chauffeur       = "";
 
 //Si gare de départ est différent de vide => ce qui est vrai
 //OU gare d'arrivée est différent de Vide => vrai également
