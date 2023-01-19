@@ -34,4 +34,6 @@ Je note ici les cours sur javascript que j'apprends sur le site UDEMY.
     * Plusieurs conditions OR & AND
     * Les conditions contraires NOT
     * Les conditions ternaires 
-    * Les boucles WHILE
+    * La boucle WHILE
+    * La boucle DO ... WHILE
+    * La boucle FOR
