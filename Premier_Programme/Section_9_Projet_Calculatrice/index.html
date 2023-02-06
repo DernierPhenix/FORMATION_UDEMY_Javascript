@@ -9,6 +9,95 @@
 <body>
     <h1>Créer une calculatrice</h1>
 
+        <h3>Étape 1 :</h3>
+            <p>Dans cette première étape, je vais vous demander d'afficher un menu à notre utilisateur, comportant les 4 modes que nous lui proposons :<br></p>
+                <ul>
+                    <li>Addition</li>
+                    <li>Soustraction</li>
+                    <li>Multiplication</li>
+                    <li>Division</li>
+                </ul>
+    
+            <p>Nous utiliserons ce menu pour récupérer un nombre : 1, 2, 3 ou 4, qui nous permettra de savoir ce que l'utilisateur souhaite faire.<br>
+                Nous stockerons ce choix dans une variable choix.<br>
+
+                <strong>Attention : vérifiez bien que l'utilisateur entre un nombre, et que ce dernier est le nombre 1, 2, 3 ou 4.</strong>
+            </p>
+             
+            <p>Astuce : Je vous recommande d'utiliser une boucle do...while. Si vous souhaitez faire des retours à la ligne pour afficher le menu,<br>
+                 il faudra utiliser le texte \n. Par exemple : "Que souhaitez-vous faire ?\n\n 1 - Addition\n".<br></p>
+
+
+        <h3>Étape 2 :</h3>
+            <p>Dans cette deuxième étape, je vous invite à demander deux nombres à utiliser lors de vos calculs. Ces deux nombres seront stockés dans deux variables :<br>
+                <strong>premierNombre et deuxiemeNombre.</strong> <br><br>
+
+                <strong>Attention : Vérifiez bien qu'il s'agit de deux nombres, nous ne sommes pas à l'abri d'un utilisateur qui rentrerait du texte !</strong><br><br>
+                
+                Astuce : Pour vérifier si une valeur est bien un nombre, vous pouvez utiliser une boucle do...while, et utiliser la fonction isNaN(variable) <br>
+                qui renvoie true si la variable n'est pas un nombre.<br></p>
+
+        <h3>Étape 3 :</h3>
+            <p>Il est maintenant temps de créer nos 4 fonctions :<br>
+                <ul>
+                    <li>addition(nombreA, nombreB)</li>
+                    <li>soustraction(nombreA, nombreB)</li>
+                    <li>multiplication(nombreA, nombreB)</li>
+                    <li>division(nombreA, nombreB)</li>
+                </ul><br>
+                
+                Pensez juste à bien retourner le résultat, et non pas l'afficher.</p>
+
+        <h3>Étape 4 :</h3>
+                <p>Nous avons maintenant le mode souhaité par l'utilisateur, nos modes et deux nombres. Il ne nous reste plus qu'à appeler la bonne fonction.<br>
+
+                    Ce que vous devez faire :<br>
+                        <ul>
+                            <li>Utiliser un switch pour vérifier plusieurs cas : 1, 2, 3 et 4</li>
+                            <li>Dans chaque cas, appeler la fonction souhaitée. Par exemple, si choix vaut 1, nous appelons la fonction addition.<br>
+                                 Voici un rappel de chaque nombre lié à sa fonction :</li>
+                                 <ol>
+                                    <li>Fonction Addition</li>
+                                    <li>Fonction Soustraction</li>
+                                    <li>Fonction Multiplication</li>
+                                    <li>Fonction Division</li>
+                                 </ol>
+                            
+                            <li>Stocker la valeur de retour de notre fonction dans une variable resultat.</li>
+
+                        </ul>
+                </p>
+        <h3>Étape 5 :</h3>
+                <p>Dans cette étape, il ne nous reste qu'une seule chose à faire : afficher le résultat.<br>
+
+                    Bien penser à afficher le résultat dans une boîte de dialogue et le faire après votre switch. <br>
+                    N'oubliez pas : nous ne voulons pas nous répéter dans notre code !<br></p>
+
+        <h3>Étape 6 :</h3>
+                <p>Nous voici dans la dernière étape. Notre calculatrice fonctionne déjà très bien, toutefois, <br>
+                    il faut que nous pensions aux erreurs qui peuvent être rencontrées. Pour ceci, nous allons créer des exceptions.<br>
+
+                    Je voudrai que vous créiez deux exceptions :<br>
+
+                    <ul>
+
+                        <li>Une dans le default de votre switch, disant qu'une erreur est survenue dans une alerte. Nous ne sommes jamais à l'abri d'un bug.</li>
+                        <li>Une dans la fonction division(), lorsque nombreB vaut 0. En effet, il est interdit de diviser par 0 ! C'est une règle fondamentale des mathématiques ! <br>
+                            Nous devons donc créer une exception "Impossible de diviser par 0.".</li>
+                    </ul>
+                </p>
+
+        <p><strong>Voir le code pour la correction</strong></p>
+
+        <h3>Étape supplémentaire (Si vous le voulez)</h3>
+                <p>En plus de faire une petite calculatrice qui propose plusieurs fonctionnalités pour deux nombres,<br>
+                    j'ai pensé à aider ceux qui voudraient aller plus loin. Pour le moment, avec tout ce que nous avons vu ensemble,<br>
+                    vous pourriez très bien proposer à l'utilisateur, une fois qu'il a terminé, de recommencer un calcul.<br><br>
+
+                    Pour cela, il nous suffit d'utiliser la boîte de dialogue confirm(). Je ne vous en dis pas plus. <br>
+                    Si vous souhaitez voir la correction, il vous suffit de regarder la correction dans le code.<br>
+                    
+                    Astuce : Utilisez une boucle do...while et une variable restart pour faire cette amélioration.</p>
     <script src="code.js"></script>
 </body>
 </html>

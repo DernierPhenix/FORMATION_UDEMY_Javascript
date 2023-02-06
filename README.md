@@ -37,3 +37,20 @@ Je note ici les cours sur javascript que j'apprends sur le site UDEMY.
     * La boucle WHILE
     * La boucle DO ... WHILE
     * La boucle FOR
+    * Exceptions
+
+- Section 9 : Projet de Calculatrice
+    * Exercice pour faire une calculatrice simple
+    * Suivre les différentes étapes dans la page HTML
+
+- Section 10 : Les fonctions & la logique
+    * La portée des variables
+    * Récursivité
+    * Exercice
+
+- Section 11 : 
+    * Les tableaux simples & à plusieurs dimensions
+    * Les tableaux associatifs
+    * Ajouter des éléments aux tableaux
+    * Supprimer des éléments aux tableaux
+    * Trouver l'index d'un élément dans un tableau
