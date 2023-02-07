@@ -54,3 +54,5 @@ Je note ici les cours sur javascript que j'apprends sur le site UDEMY.
     * Ajouter des éléments aux tableaux
     * Supprimer des éléments aux tableaux
     * Trouver l'index d'un élément dans un tableau
+    * Concaténer pour afficher (JOIN)
+    * La fonction ultime SPLICE
