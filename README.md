@@ -56,3 +56,6 @@ Je note ici les cours sur javascript que j'apprends sur le site UDEMY.
     * Trouver l'index d'un élément dans un tableau
     * Concaténer pour afficher (JOIN)
     * La fonction ultime SPLICE
+    * La boucle FOR...IN
+    * La boucle FOR...OF
+    * La boucle FOREACH
