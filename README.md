@@ -59,3 +59,5 @@ Je note ici les cours sur javascript que j'apprends sur le site UDEMY.
     * La boucle FOR...IN
     * La boucle FOR...OF
     * La boucle FOREACH
+    * Concaténer un tableau associatif
+    * Fiche technique sur les principales fonctions des tableaux

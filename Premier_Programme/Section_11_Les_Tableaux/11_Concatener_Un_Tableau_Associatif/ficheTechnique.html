@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résumé</title>
+</head>
+<body>
+    <h1>Fiche Technique Sur Les Principales Fonction Des Tableaux</h1>
+
+    <p>Voici un résumé des principales fonctionnalités liées aux tableaux,<br> que nous avons vu jusqu'à présent.<br></p>
+
+    <p>Pour ces exemples, nous prendrons en compte le fait que nous <br>avons ce tableau :<br></p>
+    <p><font color="red">let fruits = ['pomme', 'banane', 'poire', 'fraise']</font><br></p>
+
+    <p>Ainsi, voici les principales fonctionnalités :<br></p>
+    <ul>
+        <li>fruits<strong>.length</strong> : retourne le nombre d'éléments dans le tableau<br> (ici retourne 4)</li>
+        <li>fruits<strong>[0]</strong> : sélectionne le premier élément</li>
+        <li>fruits<strong>[length - 1]</strong> : sélectionne le dernier élément</li>
+        <li>fruits<strong>.push</strong>('pamplemousse') : ajoute un élément à la fin du <br>tableau</li>
+        <li>fruits<strong>.unshift</strong>('pamplemousse') : ajoute un élément au début <br>du tableau</li>
+        <li>fruits<strong>.pop()</strong> : supprime le dernier élément</li>
+        <li>fruits<strong>.shift()</strong> : supprime le premier élément</li>
+        <li>fruits<strong>.indexOf</strong>('banane') : retourne l'index d'un élément</li>
+        <li>fruits<strong>.join()</strong> : concatène les éléments dans une chaîne de <br>
+            caractères avec virgules, mais il est possible de spécifier un<br>
+            autre séparateur dans les paranthèses</li>
+        <li>fruits<strong>.slice()</strong> : crée une copie du tableau (à associer à une <br>autre variable donc)</li>
+        <li>fruits<strong>.splice([début], [nbASupprimer], [élément(s)])</strong> : <br>retire, remplace ou ajoute des éléments.
+            <li><strong>Début</strong> : l'index à partir duquel commencer le <br>
+                                         changement, si négatif, part de la fin du tableau</li>
+            <li><strong>nbASupprimer</strong> : un entier indiquant le nombre <br>
+                                                d'éléments à retirer ou remplacer</li>
+            <li><strong>Element(s)</strong> : les éléments à ajouter à partir du début <br>
+                                            précisé. Si aucun élément n'est spécifié, alors n'en <br>
+                                            ajoutera pas.</li>
+        </li>
+    </ul>
+
+    <a href="./concantener.html">Page Concaténation</a>
+</body>
+</html>
